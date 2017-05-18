@@ -1,0 +1,356 @@
+@font-face {
+    font-family: 'FuturaPTBook';
+    src: url('type/FuturaPTBook.otf');
+}
+
+@font-face {
+    font-family: 'FuturaPTMedium';
+    src: url('type/FuturaPTMedium.otf');
+}
+
+@font-face {
+    font-family: 'FuturaPTBold';
+    src: url('type/FuturaPTBold.otf');
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('Avenir Next.ttc');
+}
+
+
+#startupNav {
+    text-align: right;
+}
+
+html,
+body {
+    height:100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #6C6F73;
+    font-family: 'Avenir Next';
+}
+
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+
+}
+/*-------- NAVBAR ------*/
+
+.stems-text {
+    margin-top: 8px;
+    font-size: 40px;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.75);
+}
+
+.navbar li {
+    font-size: 20px;
+}
+
+nav-item {
+    color: #fff;
+}
+
+.download {
+    font-weight: 600;
+}
+.download::after {
+    content: "|";
+    margin-left: 35px;
+}
+
+.sign-up {
+    color: white;
+    font-weight: 600;
+}
+
+/*------ HERO SECTION ------------*/
+
+img {
+    max-width: 100%;
+}
+
+#text-box {
+    background-color: rgba(0,0,0,0.8);
+    /*    padding: 20px 10px 5px 20px;*/
+    max-width: 100%;
+    text-align: center;
+}
+
+#tag1 {
+    color: white;
+    font-weight: medium;
+    font-size: 40px;
+    letter-spacing: 1.5;
+    padding: 20px;
+}
+
+#tag2 {
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+#text-box2 {
+    background-color: rgba(255,255,255,0.7);
+    padding: 10px 10px 5px 10px;
+    margin: 10px auto 50px;
+    max-width: 450px;
+
+}
+
+/*
+#bt1 {
+margin-bottom: 20px;
+background-color: white;
+}
+*/
+
+
+
+/*
+#btn2 {
+background-color: #400067;
+color: white;
+}
+
+#bt2:hover {
+background-color: #fff;
+transition: 1s;
+}
+*/
+
+
+#tag2 {
+    color: #333;
+    font-weight: medium;
+    font-size: 1.875rem;
+    letter-spacing: 1.5;
+}
+
+
+#stage {
+    background: url(img/Light-min.png) center center no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height:100vh;
+}
+#stage-caption {
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*-------INFO CONTAINER ----------*/
+
+.info-container {
+    width: 100%;
+    height:100vh;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(83,0,239,0.8), rgba(107,53,165,0.8));
+    padding: 100px 20px 100px;
+    font-family: "Avenir Next";
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.h3-info,
+.h4-info,
+.card-title,
+.card-text {
+    color: white;
+    letter-spacing: 0.9px;
+    line-height: 1.5;
+}
+
+.h4-info::before {
+    content: url(img/arrow.png);
+    padding: 10px;
+}
+
+.h4-info::after {
+    content: url(img/arrow-right.png);
+    padding: 10px;
+}
+
+.h3-info {
+    font-size: 1.875em;
+}
+.h4-info {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.875em;
+}
+
+
+.card {
+    border: 5px solid white;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0);
+    color: white;
+}
+
+.card-title {
+    color:white;
+    font-size: 26px;
+    letter-spacing: ;
+}
+
+.card-text {
+    font-size: 20px;
+
+}
+
+
+.card-img-top {
+    margin: 20px auto;
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.quote-icon {
+    position: absolute;
+    bottom: -35px;
+    right: 45%;
+}
+
+/* ------------------------*/
+
+/* --------TESTIMONIALS----------------*/
+
+.testimonials-container1 {
+    width: 100%;
+    height:100vh;
+    margin: 0 auto;
+    text-align: center;
+    background: #1e1e1e;
+    padding: 100px 40px 100px;
+    font-family: "Avenir Next";
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    margin: auto;
+}
+
+.testimonials-container2 {
+    width: 100%;
+    height:100vh;
+    margin: auto;
+    text-align: center;
+    background: #EFEDED;
+    padding: 100px 20px 100px;
+    font-family: "Avenir Next";
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.woman-box {
+    position: absolute;
+    right: 5%;
+}
+.
+woman-testimonial-box {
+    width: 100px;
+}
+
+.download-button {
+    position: absolute;
+    width: 290px;
+    height: 64px;
+    bottom: -0px;
+    bottom: -20px;
+    left:45%;
+    right: 45%;
+    z-index: 1;
+}
+
+#btn2 {
+    background-color: #400067;
+    color: white;
+    padding: 20px 80px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px #000;
+}
+
+#bt2:hover {
+    background-color: #fff;
+    transition: 1s;
+}
+
+/*------------PAYMENT----------*/
+
+.payment-container {
+    background: linear-gradient(to bottom, rgba(83,0,239,0.5), rgba(107,53,165,0.5)), url(img/car-min.png) center center no-repeat;
+    background-size: cover;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height:100vh;
+    text-align: center;
+    align-content: center;
+
+}
+
+.free,
+.premium {
+   
+    margin-top: 20%;
+}
+
+.arrow,
+.free-text,
+.premium-text {
+    font-weight: 600;
+}
+
+.arrow::before {
+    content: url(img/arrow-left-single.png);
+    padding: 10px;
+}
+
+.arrow::after {
+    content: url(img/arrow-right-single.png);
+    padding: 10px;
+}
+
+.icon-div {
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.social-media-icon {
+    margin: 10px 50px;
+}
+
+/*--------------FOOTER ---------*/
+
+.footer-nav {
+    background-color: #333;
+    height: 75px;
+}
+
