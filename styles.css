@@ -1,21 +1,6 @@
 @font-face {
-    font-family: 'FuturaPTBook';
-    src: url('type/FuturaPTBook.otf');
-}
-
-@font-face {
-    font-family: 'FuturaPTMedium';
-    src: url('type/FuturaPTMedium.otf');
-}
-
-@font-face {
-    font-family: 'FuturaPTBold';
-    src: url('type/FuturaPTBold.otf');
-}
-
-@font-face {
     font-family: 'Avenir Next';
-    src: url('Avenir Next.ttc');
+    src: url(type/AvenirNext-Regular.otf);
 }
 
 
@@ -94,7 +79,7 @@ footer{
 
 #tag1 {
     color: white;
-    font-weight: medium;
+    font-weight: 600;
     letter-spacing: 0.0625rem;
     padding: 20px;
     font-size: 2rem;
