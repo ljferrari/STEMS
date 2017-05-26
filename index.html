@@ -11,35 +11,31 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <!--- NAV --->
 
-        <!--- NAVBAR ------------------------------------->
+        <nav class="navbar navbar-toggleable-sm navbar-inverse bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#startupNav" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand ml-3 stems-text" href="#"><img class ="stems-logo" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495116106/google-algorithm-circular-symbol_318-64428_copy_xm1h7v.png" height="50"> STEMS</a>
 
-
-
-        <!--- NAVBAR END ------------------------------------->
+            <div class="collapse navbar-collapse" id="startupNav">
+                <ul class="navbar-nav mt-2 mt-md-0 ml-sm-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link mr-4 download" href="#">Download <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-4 sign-up" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-4 sign-in" href="#">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
         <!--- HERO SECTION ---->
-        <div class="stage" id="stage">
-            <nav class="navbar navbar-toggleable-sm navbar-inverse bg-faded fixed-top">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#startupNav" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand ml-3 stems-text" href="#"><img class ="stems-logo" src="img/google-algorithm-circular-symbol_318-64428%20copy.png" alt="" height="50"> STEMS</a>
-
-                <div class="collapse navbar-collapse" id="startupNav">
-                    <ul class="navbar-nav mt-2 mt-md-0 ml-sm-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link mr-4 download" href="#">Download <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mr-4 sign-up" href="#">Sign Up</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mr-4 sign-in" href="#">Sign In</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <div class="hero-container" id="hero-container">
             <div id="stage-caption">
                 <div id="text-box">
                     <h1 id="tag1"> Global radio, algorithmically defined.</h1>
@@ -57,31 +53,35 @@
 
         <!---  INFO SECTION ---->
 
-        <div class = "info-container">
-            <div class=" info-row row justify-content-center">
-                <div class="col-lg-8">
-                    <h3 class ="white-text h3-info"> Stems radio is the first to use algorthims to match your musical tastes to live shows around the world. </h3>
-                    <h4 class="white-text h4-info mb-5 mt-4" > we sepeate music from space and time </h4>
-                    <!--- CARDS --->
-                    <div class="card-deck">
-                        <div class="card mb-4">
-                            <img class="card-img-top" src="img/music-icon.png" alt="Card image cap">
-                            <div class="card-block mb-2">
-                                <h4 class="card-title white-text">Select Genre's</h4>
+        <div class="info-container purple-background">
+            <div class="container">
+                <div class="feature-content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="h3-description"> Stems radio is the first to use algorthims to match your musical tastes to live shows around the world. </h3>
+                        </div>
+                        <div class="col-md-12">
+                            <h4 class="arrow mt-2 mb-5"> We sepeate music from space and time. </h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4"> 
+                            <div class="info-box">
+                                <img class="card-img-top" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115708/music-icon_olddig.png" alt="Card image cap">
+                                <h4 class="card-title white-text">Select Genres</h4>
                                 <p class="card-text">Select your favourite genres to begin with.</p>
                             </div>
                         </div>
-                        <div class="card mb-4">
-                            <img class="card-img-top" src="img/globe-icon.png" alt="Card image cap">
-                            <div class="card-block">
+                        <div class="col-md-4"> 
+                            <div class="info-box">
+                                <img class="card-img-top" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115689/globe-icon_fbbtyo.png" alt="Card image cap">
                                 <h4 class="card-title white-text">Listen Globally</h4>
                                 <p class="card-text"> We’ll match you to live radio stations around the globe.</p>
-
                             </div>
                         </div>
-                        <div class="card mb-4">
-                            <img class="card-img-top" src="img/algorithm-icon.png" alt="Card image cap">
-                            <div class="card-block">
+                        <div class="col-md-4">
+                            <div class="info-box">
+                                <img class="card-img-top" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115663/algorithm-icon_jvd6p8.png" alt="Card image cap">
                                 <h4 class="card-title white-text">Algorithms Learn</h4>
                                 <p class="card-text">Our algorithms learn based on whether you listen or skip.</p>
                             </div>
@@ -89,93 +89,152 @@
                     </div>
                 </div>
             </div>
-            <img  class ="quote-icon" src="img/quote-icon.png">
+            <img class ="quote-icon" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115710/quote-icon_ogyrr3.png">
         </div>
         <!---  END INFO SECTION ---->
 
         <!---  TESTIMONIALS SECTION ---->
+
         <div class="testimonials-container1">
-            <div class="row justify-content-end">
-                <div class="box col-lg-12">
-                    <img class="dj-img self-end" src="img/DJ-pic.png">
-                </div>
-            </div>
-        </div>
-        <div class="testimonials-container2">
-            <div class="row justify-content-center">
-                <div class=" col-lg-12">
-                </div>
-            </div>
-            <div class="woman-box">
-                <img class ="woman-img" src="img/woman-pic.png">
-                <div class="woman-testimonial-box">
-                    <p class="woman-testimonial-text">
-<!--                        “I have STEM radio on my desktop, mobile and tablet. Its wireless integreation is great for connecting to my car radio on the go. I never listen to local radio anymore!”-->
-                    </p>
-                </div>
-            </div>
-            <div class="download-button">
-                <a href="" class="btn btn-lg mb-2" id="btn2"> Download </a>
-            </div>
-        </div>
-
-        <!--------------------------------------------------->
-        <!---  PAYMENT SECTION  -------------------------->
-
-        <div class ="container payment-container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="card-deck payment-cards">
-                        <div class="card mb-4 free">
-                            <div class="card-block mb-2">
-                                <h4 class="card-title white-text free-text">Free</h4>
-                                <p class="card-text">Listen anywhere, anytime</p>
-                                <p class="card-text">10 downloads</p>
-                                <p class="card-text arrow"> $0.00/month </p>
+            <div class="container">
+                <div class="feature-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img class="dj-img" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115684/DJ-pic_kv8du7.png">
+                        </div>
+                        <div class="col-lg-6 pull-lg-2">
+                            <div class="text-box">
+                                <p class="lead">"STEMS radio is a great source of inspiration for my production and dj mixes. I can  enhance my sets with sounds from around the world, then share this experience with my audience.”</p>
                             </div>
                         </div>
-                        <div class="card mb-4 premium">
-                            <div class="card-block mb-2">
-                                <h4 class="card-title white-text premium-text">Premium</h4>
-                                <p class="card-text">Listen anywhere, anytime</p>
-                                <p class="card-text">Unlimited downloads</p>
-                                <p class="card-text arrow"> $5.99/month </p>
-                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <blockquote class="blockquote manquote">
+                                <p class="mb-0">John Doe</p>
+                                <p> DJ & Producer</p>
+                            </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="icon-div">
-                <a href="#"><img class="social-media-icon" src="img/facebook-icon.png"></a>
-                <a href="#"><img class="social-media-icon" src="img/twitter-icon.png"></a>
-                <a href="#"><img class="social-media-icon" src="img/instagram-icon.png"></a>
-                <a href="#"><img class="social-media-icon" src="img/youtube-icon.png"></a>
-                <a href="#"><img class="social-media-icon" src="img/google-icon.png"></a>
+        </div>
+
+        <div class="testimonials-container2">
+            <div class="container">
+                <div class="feature-content">
+                    <div class="row">
+                        <div class="col-lg-6 push-lg-6">
+                            <img class="dj-img" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115716/woman-pic_mawoag.png">
+                        </div>
+                        <div class="col-lg-6 pull-lg-4">
+                            <div class="text-box2">
+                                <p class="lead">“I have STEM radio on my desktop, mobile and tablet. Its wireless integreation is great for connecting to my car radio on the go. I never listen to local radio anymore!”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 push-lg-6">
+                            <blockquote class="blockquote womanquote">
+                                <p class="mb-0">Jane Doe</p>
+                                <p> Music Fan</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>   
+            <div class="download-button">
+                <a href="" class="btn btn-lg mb-2 " id="download"> Download </a>
+            </div>
+        </div>
+
+
         <!--------------------------------------------------->
+        <!---  PAYMENT SECTION  -------------------------->
 
-       
-        <!-------Footer----------> 
+        <div class="payment-container .purple-background-img">
+            <div class="container">
+                <div class="feature-content">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-5">
+                            <div class="info-box payment">
+                                <h4 class="card-title white-text free-text pb-5">Free</h4>
+                                <p class="card-text">Listen anywhere, anytime.</p>
+                                <p class="card-text pb-5">10 downloads.</p>
+                                <p class="card-text arrow"> $0.00/month </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="info-box payment">
+                                <h4 class="card-title white-text premium-text pb-5">Premium</h4>
+                                <p class="card-text">Listen anywhere, anytime.</p>
+                                <p class="card-text pb-5">Unlimited downloads.</p>
+                                <p class="card-text arrow"> $5.99/month </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around mt-5">
+                        <div class="col-lg-1">
+                            <a href="#"><img class="social-media-icon" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115692/facebook-icon_jx2u1l.png"></a>
+                        </div>
+                        <div class="col-lg-1">
+                            <a href="#"><img class="social-media-icon" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115704/instagram-icon_qwcsrs.png"></a>
+                        </div>
+                        <div class="col-lg-1">
+                            <a href="#"><img class="social-media-icon" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115713/twitter-icon_s4oa5u.png"></a>
+                        </div>
+                        <div class="col-lg-1">
+                            <a href="#"><img class="social-media-icon" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115718/youtube-icon_quao1d.png"></a>
+                        </div>
+                        <div class="col-lg-1">
+                            <a href="#"><img class="social-media-icon" src="http://res.cloudinary.com/dh0phzako/image/upload/v1495115701/google-icon_y1wrlv.png"></a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+                
 
-        <ul class="footer-nav nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-        </ul>           
 
-        <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!--------------------------------------------------->
+
+
+    <!-------Footer----------> 
+<!--
+
+    <ul class="footer-nav nav justify-content-center">
+        <li class="nav-item">
+            <p> +44 4566 454544 </p>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Terms of Use</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Privacy Policy</a>
+        </li>
+    </ul>           
+-->
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="link col-lg-2">
+                    +44 4566 454544
+                </div>
+                <div class="link col-lg-2 push-lg-6">
+                    Terms of Use
+                </div>
+                <div class="link col-lg-2 push-lg-6">
+                    Privacy Policy
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     </body>
 </html>
