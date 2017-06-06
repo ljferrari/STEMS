@@ -73,7 +73,6 @@ footer{
 .hero-container {
     background: url(img/Light-mobile.jpeg) no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
     height: 100%;
     color: white;  
 }
@@ -149,10 +148,10 @@ h4.arrow {
 
 
 .purple-background {
-    background: -webkit-linear-gradient(to bottom, rgba(83,0,239,0.7), rgba(107,53,165,0.7));
-    background: -moz-linear-gradient(to bottom, rgba(83,0,239,0.7), rgba(107,53,165,0.7));
-    background: -ms-linear-gradient(to bottom, rgba(83,0,239,0.7), rgba(107,53,165,0.7));
-    background: linear-gradient(to bottom, rgba(83,0,239,1), rgba(107,53,165,1));
+    background: -webkit-linear-gradient(rgba(83,0,239,0.7), rgba(107,53,165,0.7));
+    background: -moz-linear-gradient(rgba(83,0,239,0.7), rgba(107,53,165,0.7));
+    background: -ms-linear-gradient(rgba(83,0,239,0.7), rgba(107,53,165,0.7));
+    background: linear-gradient(rgba(83,0,239,1), rgba(107,53,165,1));
     background-attachment: fixed;
 }
 
@@ -275,10 +274,10 @@ h4.arrow {
 /*** PAYMENT SECTION ***/
 
 .payment-container {
-    background: -webkit-linear-gradient(to bottom, rgba(83,0,239,0.7), rgba(107,53,165,0.7));
-    background: -moz-linear-gradient(to bottom, rgba(83,0,239,0.7), rgba(107,53,165,0.7));
-    background: -ms-linear-gradient(to bottom, rgba(83,0,239,0.7), rgba(107,53,165,0.7));
-    background: linear-gradient(to bottom, rgba(83,0,239,0.7), rgba(107,53,165,0.7)), url(http://res.cloudinary.com/dh0phzako/image/upload/v1496750627/car-min_drxisr.jpg) no-repeat center center;
+    background: -webkit-linear-gradient(rgba(83,0,239,0.7), rgba(107,53,165,0.7));
+    background: -moz-linear-gradient(rgba(83,0,239,0.7), rgba(107,53,165,0.7));
+    background: -ms-linear-gradient(rgba(83,0,239,0.7), rgba(107,53,165,0.7));
+    background: linear-gradient(rgba(83,0,239,0.7), rgba(107,53,165,0.7)), url(http://res.cloudinary.com/dh0phzako/image/upload/v1496750627/car-min_drxisr.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -323,6 +322,10 @@ footer {
     body {
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;
+    }
+    
+    .hero-container {
+        background-attachment: fixed;
     }
 
     .navbar li {
@@ -402,7 +405,6 @@ footer {
     .info-box {
         height: 25rem;
     }
-
 
 
 }
