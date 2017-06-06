@@ -71,7 +71,7 @@ footer{
 /*** HERO SECTION ***/
 
 .hero-container {
-    background: url(http://res.cloudinary.com/dh0phzako/image/upload/v1495115650/Light-min_iukc2x.png) no-repeat center center;
+    background: url(img/Light-mobile.jpeg) no-repeat center center;
     background-size: cover;
     height: 100%;
     color: white;  
@@ -318,10 +318,14 @@ footer {
         text-rendering: optimizeLegibility;
     }
 
-     .hero-container {
+    .hero-container {
+        background: url(http://res.cloudinary.com/dh0phzako/image/upload/v1495115650/Light-min_iukc2x.png) no-repeat center center;
+        background-size: cover;
         background-attachment: fixed;
+        height: 100%;
+        color: white;  
     }
-    
+
     .navbar li {
         font-size: 1.3rem;
     }
@@ -399,8 +403,8 @@ footer {
     .info-box {
         height: 25rem;
     }
-    
-    
+
+
 
 }
 
@@ -425,5 +429,5 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    
+
 }
