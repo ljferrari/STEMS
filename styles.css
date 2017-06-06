@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'AvenirNextLTPro-Regular';
-  src: url('AvenirNextLTPro-Regular.eot');
-  src: url('AvenirNextLTPro-Regular.woff2') format('woff2'),
-       url('AvenirNextLTPro-Regular.woff') format('woff'),
-       url('AvenirNextLTPro-Regular.ttf') format('truetype'),
-       url('AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg'),
-       url('AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'AvenirNextLTPro-Regular';
+    src: url('AvenirNextLTPro-Regular.eot');
+    src: url('AvenirNextLTPro-Regular.woff2') format('woff2'),
+        url('AvenirNextLTPro-Regular.woff') format('woff'),
+        url('AvenirNextLTPro-Regular.ttf') format('truetype'),
+        url('AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg'),
+        url('AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
@@ -22,8 +22,6 @@ body {
 }
 
 body  {
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
     color: white;
     text-align: center;
 }
@@ -60,7 +58,7 @@ footer{
 }
 
 .download,
-.bold {
+.bold { 
     font-weight: 600;
 }
 
@@ -315,19 +313,24 @@ footer {
     {
         height: 100%;
     }
-    
-    .navbar li {
-    font-size: 1.3rem;
-}
-    
-       .stems-text,
-    #tag1 {
-    font-size: 2rem;
-    
+
+    body {
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
     }
-    
+
+    .navbar li {
+        font-size: 1.3rem;
+    }
+
+    .stems-text,
+    #tag1 {
+        font-size: 2rem;
+
+    }
+
     #tag2 {
-    font-size: 1.7rem;
+        font-size: 1.7rem;
     }
 
     .feature-content h3,
@@ -337,33 +340,33 @@ footer {
         letter-spacing: 0.05rem;
     }
 
-    
+
     h4.card-title {
-    color:white;
-    font-size: 1.5rem;
-    letter-spacing: 0.05rem;
-}
+        color:white;
+        font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+    }
     .card-text {
-    font-size: 1.3rem;
-    letter-spacing: 0.05rem;
-}
-    
+        font-size: 1.3rem;
+        letter-spacing: 0.05rem;
+    }
+
     .quote-icon {
         height: 65px;
     }
-    
-    .lead {
-    font-size: 1.5rem;
-    line-height: 1.5;
-    margin-top: 10%;
-    font-style: italic;
 
-}
-    
+    .lead {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin-top: 10%;
+        font-style: italic;
+
+    }
+
     .social-media-icon {
-    margin-bottom: 30px;
+        margin-bottom: 30px;
         height: 40px;
-}
+    }
 
 
     .arrow::before {
@@ -379,21 +382,21 @@ footer {
     .arrow2 {
         margin-top: -15px;
     }
-    
+
     .quote-icon {
-    position: absolute;
-    z-index: 1;
-    bottom: -35px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
+        position: absolute;
+        z-index: 1;
+        bottom: -35px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .info-box {
         height: 25rem;
     }
-    
+
 }
 
 @media screen and ( min-width : 768px ) {
@@ -404,19 +407,19 @@ footer {
     }
 
     .feature-content {
-    padding: 8rem 3rem;
-    overflow: hidden;
-}
-    
+        padding: 8rem 3rem;
+        overflow: hidden;
+    }
+
     .quote-icon {
-    position: absolute;
-    z-index: 1;
-    bottom: -35px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+        position: absolute;
+        z-index: 1;
+        bottom: -35px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
 
 
 
-}
+    }
