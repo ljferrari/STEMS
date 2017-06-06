@@ -73,6 +73,7 @@ footer{
 .hero-container {
     background: url(img/Light-mobile.jpeg) no-repeat center center;
     background-size: cover;
+
     height: 100%;
     color: white;  
 }
@@ -318,12 +319,13 @@ footer {
         text-rendering: optimizeLegibility;
     }
 
+
     .hero-container {
-        background: url(http://res.cloudinary.com/dh0phzako/image/upload/v1495115650/Light-min_iukc2x.png) no-repeat center center;
+        background: url(img/Light-mobile.jpeg) no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
         height: 100%;
-        color: white;  
+        color: white;
     }
 
     .navbar li {
